@@ -14,19 +14,19 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 aaab0cca21ac482d6534698c9db2aca15e2316d6 Changes
+SHA1 a91d43cc4475fff8bcd42ee93c6b15cee4d5f928 Changes
 SHA1 329e27e2261a1bdb92cc0a6befec517bf961155f MANIFEST
 SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
-SHA1 780401fdb3a69e2871aa07a14c335033685fb823 Makefile.PL
+SHA1 8a1eba973d3b80ba489912cef49c2ae9165c984c Makefile.PL
 SHA1 7e13780b83c90f7acc1beca3ea47260b7dabfbf6 README
-SHA1 32662fb4c94a6f9f0422f4f56012f2935a7aee92 lib/Address/PostCode/UK.pm
-SHA1 68075c70047b2ba4e6188056467b6a51d6faba69 lib/Address/PostCode/UK/Place.pm
-SHA1 4baec57f4f59ddd5dfee819d28d765d27f514e60 lib/Address/PostCode/UK/Place/Constituency.pm
-SHA1 54d6b052c4283be4b2c288cb84a0319d1148080e lib/Address/PostCode/UK/Place/Council.pm
-SHA1 9a1e13c3c920976a4bf974ee42bc40f9ab3a00af lib/Address/PostCode/UK/Place/Geo.pm
-SHA1 41046dffaed6498f901f4743e03ace066c232747 lib/Address/PostCode/UK/Place/Ward.pm
-SHA1 52621af443c53b24ec1b3c881d7c5fdc43f75e3e lib/Address/PostCode/UserAgent.pm
-SHA1 945c9fd7b96a1ac3623ffc036de99ba1e2bae4be lib/Address/PostCode/UserAgent/Exception.pm
+SHA1 cce72ddc3c447496f6d7a3da92efdf6a12f2ad6d lib/Address/PostCode/UK.pm
+SHA1 80a35b5ae9b0cc855161f85d37789b996d8b0608 lib/Address/PostCode/UK/Place.pm
+SHA1 cfea1188ba9f6167d65b5d5b7a13a1fe902b1c38 lib/Address/PostCode/UK/Place/Constituency.pm
+SHA1 f425399693f0212b2f799642447585c01c89de50 lib/Address/PostCode/UK/Place/Council.pm
+SHA1 c1a43d9b6497d88fce32eb77ea7bffbf01d96d10 lib/Address/PostCode/UK/Place/Geo.pm
+SHA1 e85792538c1c403284812adf6038cdde18fb39ff lib/Address/PostCode/UK/Place/Ward.pm
+SHA1 b591a94b1e48397cb98879c4448d54a2817824d1 lib/Address/PostCode/UserAgent.pm
+SHA1 35042c5c85d84ed21e9045a24570211991629974 lib/Address/PostCode/UserAgent/Exception.pm
 SHA1 a97dd3a7a518732e75d57414b95352f33a060535 t/00-load.t
 SHA1 e357372a1de9c3155f01a4a2795884201f74ba1e t/01-details.t
 SHA1 ae93e66a5aa12e206b761202e938bede2e0d82ae t/changes.t
@@ -35,11 +35,11 @@ SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUT+OQAAoJENoXJXWo7C/pjUQH+wZAa08lsd6mumJ18zt3DKIQ
-WmCXTMly9ux8r1uKy9hr+Ypnhw9ca1quMuF7Z8TxGvX09RyXogJYeX8x0mPYKdFT
-HlGVbK5CJ5cj/5+5OdAwks1gyOXvmq6wYwsiV7u691HP6qw5wvp7NAAkwpZg9mMt
-D71yl2Y9s9bvFiGmbfN0GldNt/xrJ/dW9Nn/SGNwfKEAjicL6NiBQNFJqVLHuWe/
-m3uR4S7lV0d3jZnLS8mhfV0fUwVjOOTWP8hfncJ3OxEXU56kXnauTEWNUvcd8HP9
-olj4G1LnJebxlsCalR1waCHyTImwpRzcqXtTOt+ISJ3ylIbEaFxacxnkff6tXFE=
-=r5/2
+iQEcBAEBAgAGBQJUUAcSAAoJENoXJXWo7C/pPj4H/1fnE6+X9lMjNXUSsZDD6/aH
+AJ/N3msNrFrcc+4i1/T/OINheU0i1pI6kUnuRyShFp2+kmFjZJlwdFl2XazWLlrY
+OF8pOnyOUsuhCG52HNDXUol0w1uiR7txdVTBhHShWwDbZL/P3uex+sPC1M92s1gv
+RnQxyDjdq3etH7wP76CfIMQeSNuKBBQSWz8TC9YTNa/p7far4bk51GRnc7mAHy/z
+dBd4jHeCWI2R246MRDWtgHrZafWJ7wfHyUFy0ttoTgNMO5w3Q+a/X/4ALFIsuYWx
+eE5+RNBqfAd/zqeSD5IEMCuuKTPb11qHhcqJzg4Dw3mDlV1acNmtEpNPv+tlvBE=
+=Ojc+
 -----END PGP SIGNATURE-----
