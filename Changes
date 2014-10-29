@@ -1,5 +1,8 @@
 Revision history for Address-PostCode-UK
 
+0.04  2014-10-29T17:45:00+01:00
+      - Tidied up README file.
+
 0.03  2014-10-29T15:34:20+01:00
       - Updated pod document about usage limit.
       - Added dependency on package Addesss::PostCode::UserAgent.
