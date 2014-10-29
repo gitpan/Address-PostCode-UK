@@ -1,6 +1,6 @@
 package Address::PostCode::UK::Place::Council;
 
-$Address::PostCode::UK::Place::Council::VERSION = '0.02';
+$Address::PostCode::UK::Place::Council::VERSION = '0.03';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::UK::Place::Council - Placeholder for 'council' of the Address
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 

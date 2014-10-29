@@ -18,12 +18,11 @@ no_index:
     - t
     - inc
 requires:
-  HTTP::Tiny: '0'
+  Address::PostCode::UserAgent: '0.02'
   JSON: '0'
   Moo: '0'
-  Throwable: '0'
   namespace::clean: '0'
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Address-PostCode-UK.git
-version: '0.02'
+version: '0.03'

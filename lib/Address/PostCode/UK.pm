@@ -1,6 +1,6 @@
 package Address::PostCode::UK;
 
-$Address::PostCode::UK::VERSION = '0.02';
+$Address::PostCode::UK::VERSION = '0.03';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::UK - Interface to the UK PostCode.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
@@ -35,7 +35,8 @@ Interface to the API provided by L<UK Postcodes|http://uk-postcodes.com/>.
 =head1 NOTE
 
 Data  may  be  used  under the terms of the OS OpenData licence. Northern Ireland
-postcode data may be used under the terms of the ONSPD licence.
+postcode  data may be used under the terms of the ONSPD licence. Currently, there
+are no limitations on usage, but they may introduce rate limiting in future.
 
 =head1 METHODS
 

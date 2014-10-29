@@ -1,6 +1,4 @@
 Changes
-lib/Address/PostCode/UserAgent.pm
-lib/Address/PostCode/UserAgent/Exception.pm
 lib/Address/PostCode/UK.pm
 lib/Address/PostCode/UK/Place.pm
 lib/Address/PostCode/UK/Place/Constituency.pm

@@ -1,5 +1,9 @@
 Revision history for Address-PostCode-UK
 
+0.03  2014-10-29T15:34:20+01:00
+      - Updated pod document about usage limit.
+      - Added dependency on package Addesss::PostCode::UserAgent.
+
 0.02  2014-10-28T21:12:00+01:00
       - Fixed the 'LICENSE' key in the Makefile.PL file.
       - Corrected the pod document of the package Address::PostCode::UK::Place::Council.

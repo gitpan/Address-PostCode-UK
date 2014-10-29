@@ -19,10 +19,9 @@ WriteMakefile(
     },
     PREREQ_PM => {
         'JSON'             => 0,
-        'HTTP::Tiny'       => 0,
-        'Throwable'        => 0,
         'Moo'              => 0,
         'namespace::clean' => 0,
+        'Address::PostCode::UserAgent' => '0.02',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Address-PostCode-UK-*' },
