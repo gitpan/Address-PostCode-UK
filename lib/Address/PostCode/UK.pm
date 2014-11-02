@@ -1,6 +1,6 @@
 package Address::PostCode::UK;
 
-$Address::PostCode::UK::VERSION = '0.04';
+$Address::PostCode::UK::VERSION = '0.05';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::UK - Interface to the UK PostCode.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -52,8 +52,8 @@ parameter requires is the post code.
     my $post_code = 'Post Code';
     my $place     = $address->details($post_code);
 
-    print "Latitude : ", $place->geo->lat;
-    print "Longitude: ", $place->geo->lng;
+    print "Latitude : ", $place->geo->lat, "\n";
+    print "Longitude: ", $place->geo->lng, "\n";
 
 =cut
 
@@ -67,12 +67,18 @@ sub details {
     my $response = $self->get($url);
     my $contents = from_json($response->{'content'});
 
+    my ($geo, $ward, $council, $constituency);
+    $geo  = Address::PostCode::UK::Place::Geo->new($contents->{'geo'})
+        if (exists $contents->{'geo'});
+    $ward = Address::PostCode::UK::Place::Ward->new($contents->{'administrative'}->{'ward'})
+        if (exists $contents->{'administrative'}->{'ward'});
+    $council = Address::PostCode::UK::Place::Council->new($contents->{'administrative'}->{'council'})
+        if (exists $contents->{'administrative'}->{'council'});
+    $constituency = Address::PostCode::UK::Place::Constituency->new($contents->{'administrative'}->{'constituency'})
+        if (exists $contents->{'administrative'}->{'constituency'});
+
     return Address::PostCode::UK::Place->new(
-        'geo'          => Address::PostCode::UK::Place::Geo->new($contents->{'geo'}),
-        'ward'         => Address::PostCode::UK::Place::Ward->new($contents->{'administrative'}->{'ward'}),
-        'council'      => Address::PostCode::UK::Place::Council->new($contents->{'administrative'}->{'council'}),
-        'constituency' => Address::PostCode::UK::Place::Constituency->new($contents->{'administrative'}->{'constituency'})
-    );
+        'geo' => $geo, 'ward' => $ward, 'council' => $council, 'constituency' => $constituency);
 }
 
 =head1 AUTHOR

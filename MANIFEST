@@ -11,7 +11,8 @@ MANIFEST
 MANIFEST.SKIP
 README
 t/00-load.t
-t/01-details.t
+t/01-address-postcode-uk.t
+t/02-address-postcode-uk-place.t
 t/manifest.t
 t/pod.t
 t/changes.t

@@ -14,30 +14,31 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2c08d7e8401e05d9a6b55f0dbae7989faa031717 Changes
-SHA1 4373b0aa75fd977d6a9d79868f1d0882cfd9ce4f MANIFEST
+SHA1 6ac243f22b6077599ad44ffa34d5e58d820d092c Changes
+SHA1 6f96511a24b434b505c271f41ff64f08069c57d8 MANIFEST
 SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
 SHA1 db36738da3cc9f5d762d7b4022a25394ec0fb98f Makefile.PL
 SHA1 2c98ce56785bd06a34a0071ad562ddad7b69d987 README
-SHA1 52a777b785bae026069235f500a1147d27225b15 lib/Address/PostCode/UK.pm
-SHA1 d9461a95059028aad8a8667bafa9bb4e76a21b44 lib/Address/PostCode/UK/Place.pm
-SHA1 b8150f81e836131269b69f5515d501cb1aa2622a lib/Address/PostCode/UK/Place/Constituency.pm
-SHA1 f9b7284ead3f5aedf4ba101be43dd904220e0a70 lib/Address/PostCode/UK/Place/Council.pm
-SHA1 b7a6779bb58ae13b4f2e0824213d554b3b3a1c5b lib/Address/PostCode/UK/Place/Geo.pm
-SHA1 9ef392db9e34f6e3998f7656eabfabd0b3aa0aec lib/Address/PostCode/UK/Place/Ward.pm
+SHA1 f40fbe19863b0623c6b39e8c29fe569b8ccee345 lib/Address/PostCode/UK.pm
+SHA1 f083baa560f301b1ac50baa5714971aa995c3ff8 lib/Address/PostCode/UK/Place.pm
+SHA1 da433e0fe86002e57d0ed05a52ff97251c2a95c8 lib/Address/PostCode/UK/Place/Constituency.pm
+SHA1 c654b83128daf912ff3b78136e32f22c77b2dbd6 lib/Address/PostCode/UK/Place/Council.pm
+SHA1 868460a80cb649e223e129ecf5355f4958c715f9 lib/Address/PostCode/UK/Place/Geo.pm
+SHA1 f99a96b6176b4c908b821ccf39f901ea38a02dcb lib/Address/PostCode/UK/Place/Ward.pm
 SHA1 73551b05eb5457e865e2ef3b61dac75f7b2a3271 t/00-load.t
-SHA1 e357372a1de9c3155f01a4a2795884201f74ba1e t/01-details.t
+SHA1 e357372a1de9c3155f01a4a2795884201f74ba1e t/01-address-postcode-uk.t
+SHA1 8549c94710edafadf4ed3077bf5d8d4854e2b729 t/02-address-postcode-uk-place.t
 SHA1 ae93e66a5aa12e206b761202e938bede2e0d82ae t/changes.t
 SHA1 3e86d3e277d4233e55b8a4555bf6edf2dcdf7bd0 t/manifest.t
 SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUUSx3AAoJENoXJXWo7C/p2/oH/07p7YaSQBLtGrOEqZt3jvUO
-i83DqqMfQriDBJMwswpAK/ZwCXacPO7mbY1G2QKkdOEgpQqKI6+cb5zikZNjyX0w
-jtpP8zxtYno+J2UL3BtyhOrHavuC8uVXbTs4bhFRaMPF6109eA1OCL2nFPmXHJCN
-qnumrYMiD9XKWfQE3QT27X+5wkQps4wp/HEjpKfpcaRmOYdw1amGt3EgnmIDJCPm
-q4oDDl9px/O3sAC97avvDPQx4m01lwAwEF+SLtRDdeQGCq9hiA/GGXTmDqljuK7G
-07KKdK/r/nvOus3MnyJwBdMx8DoVwYmJfqrmy5fzwzUvO+Fh5Nr4nBHSs6ZBA04=
-=pZxz
+iQEcBAEBAgAGBQJUVi5XAAoJENoXJXWo7C/prWIIAMuLwkjT/qZ+FjuPY7yLFTwd
+A/tzsxXxmafOuiLkPgOgUmeTWVikWEcpWXAQxC0oa7nUxjxsmZB/jFe2wAFc86iB
+/sfsZtFvuzrrl1d/K0IxxhaZTblCaIzNWjfMYFIdLdXjJYCjzhJg9NEM2yydcfgj
+zHi+2PRhjTMyzrV2E5werhtsr7pAHj5zAcW1FfwbA6TQuf4LeVmSvZV1fDWVw0Es
++qcC1WJxHBtovCbMhwSKXGUKA4wnqi82zQ2bqm2f2Q4q1G8NCUUxA6AhhNCN8lyP
+JuPB4hpLf8fODk7m77g/rRqKqsbyKzEDj5YqnOTHde1zxYbg9LszseEvKzIQr+A=
+=cOCd
 -----END PGP SIGNATURE-----
