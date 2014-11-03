@@ -1,5 +1,9 @@
 Revision history for Address-PostCode-UK
 
+0.06  2014-11-03T22:40:45+01:00
+      - Checking the US post code format.
+      - Added test case for UK post code format.
+
 0.05  2014-11-02T13:14:20+01:00
       - Added more unit test.
       - Validate the response before populating the object.

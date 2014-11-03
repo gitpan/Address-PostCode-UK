@@ -1,6 +1,6 @@
 package Address::PostCode::UK;
 
-$Address::PostCode::UK::VERSION = '0.05';
+$Address::PostCode::UK::VERSION = '0.06';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::UK - Interface to the UK PostCode.
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -61,6 +61,7 @@ sub details {
     my ($self, $post_code) = @_;
 
     die "ERROR: Missing required param 'post code'.\n" unless defined $post_code;
+    die "ERROR: Invalid format for UK post code [$post_code].\n" unless ($post_code =~ /[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2}/gi);
 
     $post_code =~ s/\s//g;
     my $url      = sprintf("%s/postcode/%s.json", $BASE_URL, $post_code);

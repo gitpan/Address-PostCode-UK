@@ -14,19 +14,19 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 6ac243f22b6077599ad44ffa34d5e58d820d092c Changes
+SHA1 80bc38b1bb841db96e46b9e688cae96b5dd4a0c2 Changes
 SHA1 6f96511a24b434b505c271f41ff64f08069c57d8 MANIFEST
 SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
 SHA1 db36738da3cc9f5d762d7b4022a25394ec0fb98f Makefile.PL
 SHA1 2c98ce56785bd06a34a0071ad562ddad7b69d987 README
-SHA1 f40fbe19863b0623c6b39e8c29fe569b8ccee345 lib/Address/PostCode/UK.pm
-SHA1 f083baa560f301b1ac50baa5714971aa995c3ff8 lib/Address/PostCode/UK/Place.pm
-SHA1 da433e0fe86002e57d0ed05a52ff97251c2a95c8 lib/Address/PostCode/UK/Place/Constituency.pm
-SHA1 c654b83128daf912ff3b78136e32f22c77b2dbd6 lib/Address/PostCode/UK/Place/Council.pm
-SHA1 868460a80cb649e223e129ecf5355f4958c715f9 lib/Address/PostCode/UK/Place/Geo.pm
-SHA1 f99a96b6176b4c908b821ccf39f901ea38a02dcb lib/Address/PostCode/UK/Place/Ward.pm
+SHA1 a06e76163a5b900b6896254693faf69749149c20 lib/Address/PostCode/UK.pm
+SHA1 e3dc9cdb228d10ec8920af0b76c4e994c13c9d31 lib/Address/PostCode/UK/Place.pm
+SHA1 43368786fe6fdd80dcd7c3d3100baa72add169cd lib/Address/PostCode/UK/Place/Constituency.pm
+SHA1 783f9f8ce8d37588425c5f121a89af95296321bb lib/Address/PostCode/UK/Place/Council.pm
+SHA1 dd0f923a38e65fe6db83bb080034cf5061f3b273 lib/Address/PostCode/UK/Place/Geo.pm
+SHA1 a07854d0bd23501f4c643744a604e160cd10d8e6 lib/Address/PostCode/UK/Place/Ward.pm
 SHA1 73551b05eb5457e865e2ef3b61dac75f7b2a3271 t/00-load.t
-SHA1 e357372a1de9c3155f01a4a2795884201f74ba1e t/01-address-postcode-uk.t
+SHA1 b290d798991e681b86df0afa49d96c6ad684f936 t/01-address-postcode-uk.t
 SHA1 8549c94710edafadf4ed3077bf5d8d4854e2b729 t/02-address-postcode-uk-place.t
 SHA1 ae93e66a5aa12e206b761202e938bede2e0d82ae t/changes.t
 SHA1 3e86d3e277d4233e55b8a4555bf6edf2dcdf7bd0 t/manifest.t
@@ -34,11 +34,11 @@ SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUVi5XAAoJENoXJXWo7C/prWIIAMuLwkjT/qZ+FjuPY7yLFTwd
-A/tzsxXxmafOuiLkPgOgUmeTWVikWEcpWXAQxC0oa7nUxjxsmZB/jFe2wAFc86iB
-/sfsZtFvuzrrl1d/K0IxxhaZTblCaIzNWjfMYFIdLdXjJYCjzhJg9NEM2yydcfgj
-zHi+2PRhjTMyzrV2E5werhtsr7pAHj5zAcW1FfwbA6TQuf4LeVmSvZV1fDWVw0Es
-+qcC1WJxHBtovCbMhwSKXGUKA4wnqi82zQ2bqm2f2Q4q1G8NCUUxA6AhhNCN8lyP
-JuPB4hpLf8fODk7m77g/rRqKqsbyKzEDj5YqnOTHde1zxYbg9LszseEvKzIQr+A=
-=cOCd
+iQEcBAEBAgAGBQJUWAS4AAoJENoXJXWo7C/pRgoH/Au5CuCQNSI5xn+jJFBncHzL
+bz0JeVB8nD+hEZwUkWVulzutdBtefR6j2io4KqtRqhDuyF7yhbvyx4O+KQist+Ip
+zTBtKmhermUV48Q1yXLok9g0mLNkPMznJM/dl/FpkaRhdMiGw3uMhBScMhdxsjNp
+7LeXYNWjgpXfi9skE27nBVqnV2mB96PZ3n57fdKkhpJuhaCBn/Z3lPKh99550b+o
+qcQ3n8jX0r1XhSwS90Zucr+aHXyc1lbi2EFj2fprhKt2Lljt2giXDmMcmS8BK//g
+ylmL3I/GAP7jrPngtwkpaFFr5wO1TjzTg/vbbPV2xiqYMxxw3vElhZ/lGYPXGRc=
+=b809
 -----END PGP SIGNATURE-----
